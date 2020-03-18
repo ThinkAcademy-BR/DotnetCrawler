@@ -1,10 +1,9 @@
-﻿using DotnetCrawler.Data.Repository;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace DotnetCrawler.Data.Models
 {
-    public partial class Orders : IEntity
+    public partial class Orders
     {
         public Orders()
         {

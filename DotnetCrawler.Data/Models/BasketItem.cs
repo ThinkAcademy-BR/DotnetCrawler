@@ -1,10 +1,9 @@
-﻿using DotnetCrawler.Data.Repository;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace DotnetCrawler.Data.Models
 {
-    public partial class BasketItem : IEntity
+    public partial class BasketItem
     {
         public int Id { get; set; }
         public int? BasketId { get; set; }

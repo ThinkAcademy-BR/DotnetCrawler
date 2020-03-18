@@ -1,10 +1,9 @@
-﻿using DotnetCrawler.Data.Repository;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace DotnetCrawler.Data.Models
 {
-    public partial class Baskets : IEntity
+    public partial class Baskets
     {
         public Baskets()
         {
